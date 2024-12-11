@@ -37,8 +37,8 @@ public class AppTest {
 	@Test
 	public void testSumWithZero() {
 		App app = new App();
-		int expected = 0;
-		int actual = app.sum(0, 0);
+		int expected = 100;
+		int actual = app.sum(100, 0);
 		assertEquals(expected, actual);
 
 	}
